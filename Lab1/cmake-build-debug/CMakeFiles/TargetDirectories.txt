@@ -1,0 +1,3 @@
+/home/baddragon/Документы/_workspace/CppLabs/SimpleCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/baddragon/Документы/_workspace/CppLabs/SimpleCpp/cmake-build-debug/CMakeFiles/SimpleCpp.dir
+/home/baddragon/Документы/_workspace/CppLabs/SimpleCpp/cmake-build-debug/CMakeFiles/edit_cache.dir

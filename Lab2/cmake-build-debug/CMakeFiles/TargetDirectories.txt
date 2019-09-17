@@ -1,3 +1,3 @@
-/home/baddragon/Документы/_workspace/CppLabs/Lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/baddragon/Документы/_workspace/CppLabs/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir
-/home/baddragon/Документы/_workspace/CppLabs/Lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/_workspace/Lab2/cmake-build-debug/CMakeFiles/Lab2.dir
+F:/_workspace/Lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/_workspace/Lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -14,7 +14,7 @@ int main() {
 
 unsigned reverse(unsigned value){
 
-    unsigned rValue = 0x0000, tmpValue;
+    unsigned rValue, tmpValue;
     tmpValue = value;
     rValue = (0x0FFFF & tmpValue << 12) | tmpValue >> 12;
     rValue = rValue | (((tmpValue << 4) & 0x0F00) | (tmpValue >> 4 ) &0x00f0);

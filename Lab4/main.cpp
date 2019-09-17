@@ -2,31 +2,15 @@
 
 using namespace std;
 
-//int multiply_p(int *, int, int);
-int multiply_i(int array[][7], int, int);
+template <class T>
+T multiply_p(T *, int, int);
 
 template <class T>
-T multiply_p(T *array, int rowSize, int columnSize) {
-    T result = 1;
-    for (int i = 0; i < rowSize; i++) {
-        // for (int j = 0; j < columnSize; j++) {
-        // if (i == j) {
-        result *= *(array + i*columnSize + i);
-        //      }
-        //      }
-    }
-    return result;
-}
+T multiply_i(T *, int, int);
 
-template <class T>
-void printArray(T* array, int rowSize, int columnSize){
-    for (int i = 0; i < rowSize; i++) {
-        for (int j = 0; j < columnSize; j++) {
-            cout << *(array + i * columnSize + j) << " ";
-        }
-        cout << endl;
-    }
-}
+template  <class T>
+void printArray(T *, int, int);
+
 
 
 int main() {
@@ -46,26 +30,43 @@ int main() {
     };
     cout << "int array" << endl;
     printArray(*intArray, rowSize, columnSize);
-    cout << "double array" <<endl;
+    cout << "double array" << endl;
     printArray(*doubleArray, rowSize, columnSize);
 
     cout << endl << "int result = " << multiply_p(*intArray, rowSize, columnSize) << endl;
     cout << "-----------------------";
     cout << endl << "double result = " << multiply_p(*intArray, rowSize, columnSize);
-    //cout << endl << "Result using indexes = " << multiply_i(&array[0][0])
+    cout << endl << "Result using indexes = " << multiply_i(&doubleArray[0][0], rowSize, columnSize);
 
     return 0;
 }
 
 
-//int multiply_i(int *array, int rowSize, int columnSize){
-//    int result = 1;
-//    for (int i = 0; i < rowSize; i++) {
-//        for (int j = 0; j < columnSize; j++) {
-//            if (i == j) {
-//                result *= array[i][j];
-//            }
-//        }
-//    }
-//    return result;
-//}
+template <class T>
+T multiply_p(T *array, int rowSize, int columnSize) {
+    T result = 1;
+    for (int i = 0; i < rowSize; i++) {
+        result *= *(array + i * columnSize + i);
+    }
+    return result;
+}
+
+template <class T>
+T multiply_i(T *array, int rowSize, int columnSize) {
+    T result = 1;
+    for (int i = 0; i < rowSize; i++) {
+
+        result *= array[i * columnSize + i];
+    }
+    return result;
+}
+
+template<class T>
+void printArray(T *array, int rowSize, int columnSize) {
+    for (int i = 0; i < rowSize; i++) {
+        for (int j = 0; j < columnSize; j++) {
+            cout << *(array + i * columnSize + j) << " ";
+        }
+        cout << endl;
+    }
+}

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/Desease.h
+string
+-
+list
+-
+
+/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/main.cpp
+iostream
+-
+Desease.h
+/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/Desease.h
+

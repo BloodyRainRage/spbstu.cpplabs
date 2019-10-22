@@ -3,8 +3,8 @@
 //
 #include <string>
 #include <list>
-#ifndef LAB6_DISEASE_H
-#define LAB6_DISEASE_H
+#ifndef LAB7_DISEASE_H
+#define LAB7_DISEASE_H
 
 using namespace std;
 
@@ -66,22 +66,31 @@ class Disease{
             cout << "-------" << endl;
         }
 
-        ostream& Fraction::operator <<(ostream &c, Disease &disease){
-            c << "-------" << endl;
-            c << "name: " << name << endl;
-            c << "symptoms: ";
-            for (list<string>::iterator i = symptoms.begin(); i != symptoms.end(); i++){
-                c << *i << "; ";
-            }
-            c << endl << "cure: ";
-            for (list<string>::iterator i = cures.begin(); i != cures.end(); i++){
-                c << *i << "; ";
-            }
-            c << endl;
-            c << "-------" << endl;
+        friend ostream& operator <<(ostream &c, Disease &disease);
+        Disease& operator=(const Disease &disease){
+            this->name = disease.name;
+            this->cures = disease.cures;
+            this->symptoms = disease.symptoms;
         }
 
 };
 
 
-#endif //LAB6_DISEASE_H
+ostream& operator<<(ostream &c, Disease &disease) {
+    c << "-------" << endl << "Printing disease"  << endl;
+    c << "name: " << disease.name << endl;
+    c << "symptoms: ";
+    for (list<string>::iterator i = disease.symptoms.begin(); i != disease.symptoms.end(); i++){
+        c << *i << "; ";
+    }
+    c << endl << "cure: ";
+    for (list<string>::iterator i = disease.cures.begin(); i != disease.cures.end(); i++){
+        cout << *i << "; ";
+    }
+    c << endl;
+
+    c << "-------" << endl;
+    return c;
+}
+
+#endif //LAB7_DISEASE_H

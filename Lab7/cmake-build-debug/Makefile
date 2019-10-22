@@ -48,10 +48,10 @@ RM = /home/baddragon/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7"
+CMAKE_SOURCE_DIR = /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles" "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Lab6/fast:
 	$(MAKE) -f CMakeFiles/Lab6.dir/build.make CMakeFiles/Lab6.dir/build
 .PHONY : Lab6/fast
 
-Desease.o: Desease.cpp.o
+Disease.o: Disease.cpp.o
 
-.PHONY : Desease.o
+.PHONY : Disease.o
 
 # target to build an object file
-Desease.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab6.dir/build.make CMakeFiles/Lab6.dir/Desease.cpp.o
-.PHONY : Desease.cpp.o
+Disease.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab6.dir/build.make CMakeFiles/Lab6.dir/Disease.cpp.o
+.PHONY : Disease.cpp.o
 
-Desease.i: Desease.cpp.i
+Disease.i: Disease.cpp.i
 
-.PHONY : Desease.i
+.PHONY : Disease.i
 
 # target to preprocess a source file
-Desease.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab6.dir/build.make CMakeFiles/Lab6.dir/Desease.cpp.i
-.PHONY : Desease.cpp.i
+Disease.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab6.dir/build.make CMakeFiles/Lab6.dir/Disease.cpp.i
+.PHONY : Disease.cpp.i
 
-Desease.s: Desease.cpp.s
+Disease.s: Disease.cpp.s
 
-.PHONY : Desease.s
+.PHONY : Disease.s
 
 # target to generate assembly for a file
-Desease.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab6.dir/build.make CMakeFiles/Lab6.dir/Desease.cpp.s
-.PHONY : Desease.cpp.s
+Disease.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab6.dir/build.make CMakeFiles/Lab6.dir/Disease.cpp.s
+.PHONY : Disease.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab6"
 	@echo "... edit_cache"
-	@echo "... Desease.o"
-	@echo "... Desease.i"
-	@echo "... Desease.s"
+	@echo "... Disease.o"
+	@echo "... Disease.i"
+	@echo "... Disease.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

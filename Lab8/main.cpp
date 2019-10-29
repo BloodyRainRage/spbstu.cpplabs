@@ -9,7 +9,7 @@ int main() {
     qwe->pushBack(str);
     str = "string2";
     qwe->pushBack(str);
-
+	qwe->print();
 
     return 0;
 }

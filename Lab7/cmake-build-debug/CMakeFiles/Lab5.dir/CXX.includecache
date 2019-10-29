@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/_workspace/spbstu.cpplabs/Lab7/Disease.h
+string
+-
+list
+-
+
+F:/_workspace/spbstu.cpplabs/Lab7/main.cpp
+iostream
+-
+Disease.h
+F:/_workspace/spbstu.cpplabs/Lab7/Disease.h
+

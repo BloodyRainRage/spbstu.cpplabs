@@ -13,6 +13,12 @@ int main() {
     desease->print();
     desease->removeCure("cure4");
     desease->print();
+    cout << "!!!!!!!!" << endl;
+    cout << *desease;
+    Disease *disease2 = new Disease("qwee3");
+    cout << endl << "new" <<endl;
+    disease2 = desease;
+    disease2->print();
 
     return 0;
 }

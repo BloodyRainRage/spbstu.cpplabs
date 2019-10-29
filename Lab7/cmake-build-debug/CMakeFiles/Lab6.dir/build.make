@@ -43,10 +43,10 @@ RM = /home/baddragon/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7"
+CMAKE_SOURCE_DIR = /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab6.dir/depend.make
@@ -59,43 +59,43 @@ include CMakeFiles/Lab6.dir/flags.make
 
 CMakeFiles/Lab6.dir/main.cpp.o: CMakeFiles/Lab6.dir/flags.make
 CMakeFiles/Lab6.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab6.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab6.dir/main.cpp.o -c "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab6.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab6.dir/main.cpp.o -c /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/main.cpp
 
 CMakeFiles/Lab6.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab6.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/main.cpp" > CMakeFiles/Lab6.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/main.cpp > CMakeFiles/Lab6.dir/main.cpp.i
 
 CMakeFiles/Lab6.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab6.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/main.cpp" -o CMakeFiles/Lab6.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/main.cpp -o CMakeFiles/Lab6.dir/main.cpp.s
 
-CMakeFiles/Lab6.dir/Desease.cpp.o: CMakeFiles/Lab6.dir/flags.make
-CMakeFiles/Lab6.dir/Desease.cpp.o: ../Desease.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab6.dir/Desease.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab6.dir/Desease.cpp.o -c "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/Desease.cpp"
+CMakeFiles/Lab6.dir/Disease.cpp.o: CMakeFiles/Lab6.dir/flags.make
+CMakeFiles/Lab6.dir/Disease.cpp.o: ../Disease.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab6.dir/Disease.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab6.dir/Disease.cpp.o -c /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/Disease.cpp
 
-CMakeFiles/Lab6.dir/Desease.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab6.dir/Desease.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/Desease.cpp" > CMakeFiles/Lab6.dir/Desease.cpp.i
+CMakeFiles/Lab6.dir/Disease.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab6.dir/Disease.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/Disease.cpp > CMakeFiles/Lab6.dir/Disease.cpp.i
 
-CMakeFiles/Lab6.dir/Desease.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab6.dir/Desease.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/Desease.cpp" -o CMakeFiles/Lab6.dir/Desease.cpp.s
+CMakeFiles/Lab6.dir/Disease.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab6.dir/Disease.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/Disease.cpp -o CMakeFiles/Lab6.dir/Disease.cpp.s
 
 # Object files for target Lab6
 Lab6_OBJECTS = \
 "CMakeFiles/Lab6.dir/main.cpp.o" \
-"CMakeFiles/Lab6.dir/Desease.cpp.o"
+"CMakeFiles/Lab6.dir/Disease.cpp.o"
 
 # External object files for target Lab6
 Lab6_EXTERNAL_OBJECTS =
 
 Lab6: CMakeFiles/Lab6.dir/main.cpp.o
-Lab6: CMakeFiles/Lab6.dir/Desease.cpp.o
+Lab6: CMakeFiles/Lab6.dir/Disease.cpp.o
 Lab6: CMakeFiles/Lab6.dir/build.make
 Lab6: CMakeFiles/Lab6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/Lab6.dir/clean:
 .PHONY : CMakeFiles/Lab6.dir/clean
 
 CMakeFiles/Lab6.dir/depend:
-	cd "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7" "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7" "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug" "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug" "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles/Lab6.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7 /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7 /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug /home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles/Lab6.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Lab6.dir/depend
 

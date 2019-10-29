@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/Desease.h
+/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/Disease.h
 string
 -
 list
 -
 
-/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/main.cpp
+/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/main.cpp
 iostream
 -
-Desease.h
-/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/Desease.h
+Disease.h
+/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/Disease.h
 

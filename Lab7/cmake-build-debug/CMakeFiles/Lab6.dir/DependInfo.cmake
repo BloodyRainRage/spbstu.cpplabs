@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/Desease.cpp" "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles/Lab6.dir/Desease.cpp.o"
-  "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/main.cpp" "/home/baddragon/Документы/_workspace/Новая папка/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles/Lab6.dir/main.cpp.o"
+  "/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/Disease.cpp" "/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles/Lab6.dir/Disease.cpp.o"
+  "/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/main.cpp" "/home/baddragon/Документы/_workspace/cpp/spbstu.cpplabs/Lab7/cmake-build-debug/CMakeFiles/Lab6.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

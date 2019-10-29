@@ -91,14 +91,14 @@ public:
 
     void print() {
 
-		for (Deque<T>::iterator i = begin(); i != end(); i++) {
-			cout << *i << "; ";
-		}
-        /*_Node *node => begin;
+		/*for (Deque<T>::iterator i = begin; i != end; i++) {
+			cout << *i ;
+		}*/
+        _Node *node = begin;
         while (node->next != NULL) {
             cout << node->value;
-            node => node->next;
-        }*/
+            node = node->next;
+        }
 
     }
 

@@ -50,34 +50,34 @@ The CXX compiler identification is MSVC, found in "F:/_workspace/spbstu.cpplabs/
 Determining if the C compiler works passed with the following output:
 Change Dir: F:/_workspace/spbstu.cpplabs/Lab8/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fb65f && [1/2] Building C object CMakeFiles\cmTC_fb65f.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_fb65f.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_efdba && [1/2] Building C object CMakeFiles\cmTC_efdba.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_efdba.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: F:/_workspace/spbstu.cpplabs/Lab8/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4d016 && [1/2] Building C object CMakeFiles\cmTC_4d016.dir\CMakeCCompilerABI.c.obj
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e5613 && [1/2] Building C object CMakeFiles\cmTC_e5613.dir\CMakeCCompilerABI.c.obj
 Примечание: включение файла:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCompilerABI.h
-[2/2] Linking C executable cmTC_4d016.exe
+[2/2] Linking C executable cmTC_e5613.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: F:/_workspace/spbstu.cpplabs/Lab8/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_de228 && [1/2] Building CXX object CMakeFiles\cmTC_de228.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_de228.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_00ab4 && [1/2] Building CXX object CMakeFiles\cmTC_00ab4.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_00ab4.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: F:/_workspace/spbstu.cpplabs/Lab8/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_36adc && [1/2] Building CXX object CMakeFiles\cmTC_36adc.dir\CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b3d1d && [1/2] Building CXX object CMakeFiles\cmTC_b3d1d.dir\CMakeCXXCompilerABI.cpp.obj
 Примечание: включение файла:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.15\Modules\CMakeCompilerABI.h
-[2/2] Linking CXX executable cmTC_36adc.exe
+[2/2] Linking CXX executable cmTC_b3d1d.exe
 
 
 

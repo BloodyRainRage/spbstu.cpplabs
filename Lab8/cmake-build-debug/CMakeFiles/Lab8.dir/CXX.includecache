@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/_workspace/spbstu.cpplabs/Lab8/Deque.cpp
+Deque.h
+F:/_workspace/spbstu.cpplabs/Lab8/Deque.h
+
+F:/_workspace/spbstu.cpplabs/Lab8/Deque.h
+
+F:/_workspace/spbstu.cpplabs/Lab8/main.cpp
+iostream
+-
+string
+-
+Deque.h
+F:/_workspace/spbstu.cpplabs/Lab8/Deque.h
+

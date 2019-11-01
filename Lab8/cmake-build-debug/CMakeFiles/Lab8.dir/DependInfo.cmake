@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "F:/_workspace/spbstu.cpplabs/Lab8/Deque.cpp" "F:/_workspace/spbstu.cpplabs/Lab8/cmake-build-debug/CMakeFiles/Lab8.dir/Deque.cpp.obj"
+  "F:/_workspace/spbstu.cpplabs/Lab8/MyPointer.cpp" "F:/_workspace/spbstu.cpplabs/Lab8/cmake-build-debug/CMakeFiles/Lab8.dir/MyPointer.cpp.obj"
   "F:/_workspace/spbstu.cpplabs/Lab8/main.cpp" "F:/_workspace/spbstu.cpplabs/Lab8/cmake-build-debug/CMakeFiles/Lab8.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

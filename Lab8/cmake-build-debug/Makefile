@@ -151,6 +151,33 @@ Deque.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab8.dir\Deque.cpp.s
 .PHONY : Deque.cpp.s
 
+MyPointer.obj: MyPointer.cpp.obj
+
+.PHONY : MyPointer.obj
+
+# target to build an object file
+MyPointer.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab8.dir\MyPointer.cpp.obj
+.PHONY : MyPointer.cpp.obj
+
+MyPointer.i: MyPointer.cpp.i
+
+.PHONY : MyPointer.i
+
+# target to preprocess a source file
+MyPointer.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab8.dir\MyPointer.cpp.i
+.PHONY : MyPointer.cpp.i
+
+MyPointer.s: MyPointer.cpp.s
+
+.PHONY : MyPointer.s
+
+# target to generate assembly for a file
+MyPointer.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab8.dir\MyPointer.cpp.s
+.PHONY : MyPointer.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -190,6 +217,9 @@ help:
 	@echo ... Deque.obj
 	@echo ... Deque.i
 	@echo ... Deque.s
+	@echo ... MyPointer.obj
+	@echo ... MyPointer.i
+	@echo ... MyPointer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

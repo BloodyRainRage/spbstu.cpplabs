@@ -5,16 +5,27 @@
 #include "Deque.h"
 
 
-//template<class T>
-//class Deque {
-//
-//    struct _Node {
-//
-//        _Node *next;
-//        _Node *previous;
-//    };
-//    _Node *begin;
-//    _Node *end;
-//
-//
-//};
+template<class T>
+Deque<T>::Deque() {
+
+    this->begin = NULL;
+    this->end = NULL;
+}
+
+template<class T>
+void Deque<T>::pushBack(const T value) {
+    Node *node = new Node(value);
+    if (node == NULL) {
+        return;
+    }
+
+    if (begin == NULL){
+        begin = node;
+        end = node;
+    } else{
+        node->previous = end;
+        node->previous->next = node;
+        end = node;
+    }
+
+}

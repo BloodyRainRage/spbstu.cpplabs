@@ -88,6 +88,12 @@
 		<Unit filename="F:/_workspace/spbstu.cpplabs/Lab8/Deque.h">
 			<Option target="Lab8"/>
 		</Unit>
+		<Unit filename="F:/_workspace/spbstu.cpplabs/Lab8/MyPointer.cpp">
+			<Option target="Lab8"/>
+		</Unit>
+		<Unit filename="F:/_workspace/spbstu.cpplabs/Lab8/MyPointer.h">
+			<Option target="Lab8"/>
+		</Unit>
 		<Unit filename="F:/_workspace/spbstu.cpplabs/Lab8/main.cpp">
 			<Option target="Lab8"/>
 		</Unit>

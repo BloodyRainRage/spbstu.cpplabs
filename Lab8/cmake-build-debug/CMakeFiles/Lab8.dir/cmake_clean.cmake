@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lab8.dir/main.cpp.obj"
   "CMakeFiles/Lab8.dir/Deque.cpp.obj"
+  "CMakeFiles/Lab8.dir/MyPointer.cpp.obj"
   "Lab8.pdb"
   "Lab8.exe"
   "Lab8.exe.manifest"

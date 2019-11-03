@@ -14,7 +14,7 @@ class Runstring{
 
    public:
       Runstring(int left, int top, std::string *message,
-                         int mainCP, int msgCP, int bgCP);
+                    int mainCP, int msgCP, int bgCP);
       void draw();
 
 };

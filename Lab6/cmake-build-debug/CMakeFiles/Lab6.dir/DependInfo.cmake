@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/baddragon/Документы/_workspace/spbstu.cpplabs/Lab6/main.cpp" "/home/baddragon/Документы/_workspace/spbstu.cpplabs/Lab6/cmake-build-debug/CMakeFiles/Lab6.dir/main.cpp.o"
+  "F:/_workspace/spbstu.cpplabs/Lab6/Runstring.cpp" "F:/_workspace/spbstu.cpplabs/Lab6/cmake-build-debug/CMakeFiles/Lab6.dir/Runstring.cpp.obj"
+  "F:/_workspace/spbstu.cpplabs/Lab6/main.cpp" "F:/_workspace/spbstu.cpplabs/Lab6/cmake-build-debug/CMakeFiles/Lab6.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

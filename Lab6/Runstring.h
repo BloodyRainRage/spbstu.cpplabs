@@ -7,15 +7,18 @@
 class Runstring{
    
    private:
-      WINDOW *mainWindow;
+      WINDOW *mainWindow, *messageWindow;
       std::string *message;
       bool hidden;
-      int height, width, top, left, mainCP, msgCP, bgCP;
+      int heigth, width, top, left, mainCP, msgCP, bgCP;
 
    public:
-      Runstring(int left, int top, std::string *message,
+      Runstring(int left, int top, std::string message,
                     int mainCP, int msgCP, int bgCP);
       void draw();
+      void eraseWindows();
+      void Hide();
+      void Show();
 
 };
 

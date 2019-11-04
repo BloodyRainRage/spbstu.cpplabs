@@ -24,15 +24,22 @@ int main()
 
 
     std::string chr = "Press F9 to exit,F2 hide, F4 show";
+    Runstring *myString = new Runstring(startx, starty, chr, mainColorPair, messageColorPair, bgColorPair);
 
-    Runstring *myString = new Runstring(startx,
-                                                          starty,
-                                                          chr,
-                                                          mainColorPair,
-                                                          messageColorPair,
-                                                          bgColorPair);
-
-
+    int ch;
+    while((ch = getch()) != KEY_F(9))
+    {
+        switch(ch)
+        {
+            case KEY_F(3):
+                myString->Hide(); break;
+            case KEY_F(2):
+                myString->Show(); break;
+            default:
+                myString->draw();
+        }
+    }
+    endwin();
 
     return 0;
 

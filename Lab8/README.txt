@@ -1,2 +1,2 @@
 Deque realization for educational purpose.
-compile with g++ -main.cpp
+compile with g++ main.cpp
